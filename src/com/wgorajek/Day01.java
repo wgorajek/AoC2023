@@ -1,8 +1,6 @@
 package com.wgorajek;
 
 import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
 import java.util.List;
 
 public class Day01 extends Solution {
@@ -31,10 +29,8 @@ public class Day01 extends Solution {
         final List<String> input = getInputLines();
         final List<Integer> calibrations = new ArrayList<Integer>();
 
-        List<Integer> items = new ArrayList<Integer>();
         for (String i : input) {
             var digitsOnly = i.replaceAll("[^0-9]", "");
-            ;
             calibrations.add((10 * Character.getNumericValue(digitsOnly.charAt(0)) + Character.getNumericValue(digitsOnly.charAt(digitsOnly.length() - 1))));
         }
         return calibrations;
@@ -44,7 +40,6 @@ public class Day01 extends Solution {
         final List<String> input = getInputLines();
         final List<Integer> calibrations = new ArrayList<Integer>();
 
-        List<Integer> items = new ArrayList<Integer>();
         for (String i : input) {
 
             var digitsOnly = i.replaceAll("one", "o1e");

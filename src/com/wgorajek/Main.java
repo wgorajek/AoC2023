@@ -1,13 +1,11 @@
 package com.wgorajek;
 
-import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) throws Exception {
         System.out.println("Welcome to for Advent of Code 2023");
         System.out.println();
 
-        for (var day = 1; day <= 2 ; day++)
+        for (var day = 1; day <= 3 ; day++)
         {
             runSolution(day);
         }
