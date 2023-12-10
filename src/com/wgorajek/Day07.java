@@ -38,7 +38,6 @@ public class Day07 extends Solution {
         ArrayList<Hand> hands = getInput();
         int total = 0;
         for (var i = 0; i <= hands.size() - 2; i++) {
-            System.out.println(hands.get(i).cards + " " + hands.get(i).trickStrengthPartB());
             var hand1 = hands.get(i);
             for (var j = i + 1; j <= hands.size() - 1; j++) {
                 var hand2 = hands.get(j);
