@@ -9,7 +9,7 @@ public class Main {
 //        {
 //            runSolution(day);
 //        }
-        runSolution(8);
+        runSolution(7);
 }
 
 
