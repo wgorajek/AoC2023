@@ -5,11 +5,11 @@ public class Main {
         System.out.println("Welcome to for Advent of Code 2023");
         System.out.println();
 
-        for (var day = 1; day <= 13 ; day++)
+        for (var day = 1; day <= 14 ; day++)
         {
             runSolution(day);
         }
-//        runSolution(13);
+//        runSolution(14);
 }
 
 
