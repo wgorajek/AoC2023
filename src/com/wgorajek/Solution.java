@@ -4,6 +4,7 @@ package com.wgorajek;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.util.Arrays;
 import java.util.List;
 
 public abstract class Solution {
@@ -37,4 +38,5 @@ public abstract class Solution {
             return null;
         }
     }
+
 }
